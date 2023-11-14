@@ -1,0 +1,682 @@
+* {
+  list-style: none;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.title {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 60px;
+}
+.title p{
+  margin: auto;
+  width: 80%;
+}
+.title::after {
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.911);
+}
+nav h1 {
+  font-size: 29px;
+}
+.navbar-toggler-icon {
+  background-image: none;
+  color: white;
+}
+#home {
+  background-image: url("../image/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+#home .overlay {
+  background-color: #00000091;
+  width: 100%;
+  height: 100%;
+}
+#home .descrption h2 {
+  font-size: 70px;
+  font-weight: 600;
+}
+#home .descrption span {
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: fading;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#home .descrption span::before {
+  color: #fff;
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: retyping;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes retyping {
+  0% {
+    content: "";
+  }
+  1% {
+    content: "D";
+  }
+  2% {
+    content: "De ";
+  }
+  3% {
+    content: "Des ";
+  }
+  4% {
+    content: "Desi ";
+  }
+  5% {
+    content: "Desig ";
+  }
+  6% {
+    content: "Design ";
+  }
+  7% {
+    content: "Designe ";
+  }
+  8% {
+    content: "Designer ";
+  }
+  9% {
+    content: "Designer ";
+  }
+  10% {
+    content: "Designer ";
+  }
+  11% {
+    content: "Designer ";
+  }
+  12% {
+    content: "Designer ";
+  }
+  13% {
+    content: "Designer  ";
+  }
+  14% {
+    content: "Designer ";
+  }
+  15% {
+    content: "Designe ";
+  }
+  16% {
+    content: "Design ";
+  }
+  17% {
+    content: "Desig ";
+  }
+  18% {
+    content: "Desi ";
+  }
+  19% {
+    content: "Des ";
+  }
+  20% {
+    content: "De ";
+  }
+  21% {
+    content: "Dev ";
+  }
+  22% {
+    content: "Devo ";
+  }
+  23% {
+    content: "Devol ";
+  }
+  24% {
+    content: "Devole ";
+  }
+  25% {
+    content: "Devolep ";
+  }
+  26% {
+    content: "Devolepe ";
+  }
+  27% {
+    content: "Devoleper ";
+  }
+  28% {
+    content: "Devoleper  ";
+  }
+  29% {
+    content: "Devoleper ";
+  }
+  30% {
+    content: "Devoleper  ";
+  }
+  31% {
+    content: "Devoleper ";
+  }
+  32% {
+    content: "Devoleper  ";
+  }
+  33% {
+    content: "Devoleper ";
+  }
+  34% {
+    content: "Devolepe";
+  }
+  35% {
+    content: "Devolep";
+  }
+  36% {
+    content: "Devole";
+  }
+  37% {
+    content: "Devol";
+  }
+  38% {
+    content: "Devo";
+  }
+  39% {
+    content: "Dev";
+  }
+  40% {
+    content: "De";
+  }
+  41% {
+    content: "D";
+  }
+  42% {
+    content: "";
+  }
+  43% {
+    content: "F";
+  }
+  44% {
+    content: "Fr";
+  }
+  45% {
+    content: "Fre";
+  }
+  46% {
+    content: "Free";
+  }
+  47% {
+    content: "Freel";
+  }
+  48% {
+    content: "Freela";
+  }
+  49% {
+    content: "Freelan";
+  }
+  50% {
+    content: "Freelanc";
+  }
+  51% {
+    content: "Freelance";
+  }
+  52% {
+    content: "Freelancer";
+  }
+  53% {
+    content: "Freelancer";
+  }
+  54% {
+    content: "Freelancer";
+  }
+  55% {
+    content: "Freelancer";
+  }
+  56% {
+    content: "Freelancer";
+  }
+  57% {
+    content: "Freelancer";
+  }
+  58% {
+    content: "Freelancer";
+  }
+  61% {
+    content: "Freelance";
+  }
+  62% {
+    content: "Freelanc";
+  }
+  63% {
+    content: "Freelan";
+  }
+  64% {
+    content: "Freela";
+  }
+  65% {
+    content: "Freel";
+  }
+  66% {
+    content: "Free";
+  }
+  67% {
+    content: "Fre";
+  }
+  68% {
+    content: "Fr";
+  }
+  69% {
+    content: "F";
+  }
+  70% {
+    content: "";
+  }
+  71% {
+    content: "P";
+  }
+  72% {
+    content: "Ph";
+  }
+  73% {
+    content: "Pho";
+  }
+  74% {
+    content: "Phot";
+  }
+  75% {
+    content: "Photo";
+  }
+  76% {
+    content: "Photog";
+  }
+  77% {
+    content: "Photogr";
+  }
+  78% {
+    content: "Photogra";
+  }
+  79% {
+    content: "Photograp";
+  }
+  80% {
+    content: "Photograph";
+  }
+  81% {
+    content: "Photographe";
+  }
+  82% {
+    content: "Photographer";
+  }
+  83% {
+    content: "Photographer";
+  }
+  84% {
+    content: "Photographer";
+  }
+  85% {
+    content: "Photographer";
+  }
+  86% {
+    content: "Photographer";
+  }
+  87% {
+    content: "Photographer";
+  }
+  88% {
+    content: "Photographer";
+  }
+  89% {
+    content: "Photographe";
+  }
+  90% {
+    content: "Photograph";
+  }
+  91% {
+    content: "Photograp";
+  }
+  92% {
+    content: "Photogra";
+  }
+  93% {
+    content: "Photogr";
+  }
+  94% {
+    content: "Photog";
+  }
+  95% {
+    content: "Photo";
+  }
+  96% {
+    content: "Phot";
+  }
+  97% {
+    content: "Pho";
+  }
+  98% {
+    content: "Ph";
+  }
+  99% {
+    content: "P";
+  }
+  100% {
+    content: "";
+  }
+}
+@keyframes fading {
+  0% {
+    color: #fff;
+  }
+  8% {
+    color: #fff;
+  }
+  11% {
+    color: #ffffff00;
+  }
+  14% {
+    color: #fff;
+  }
+  27% {
+    color: #fff;
+  }
+  30% {
+    color: #ffffff00;
+  }
+  33% {
+    color: #fff;
+  }
+  52% {
+    color: #fff;
+  }
+  55% {
+    color: #ffffff00;
+  }
+  58% {
+    color: #fff;
+  }
+  82% {
+    color: #fff;
+  }
+  85% {
+    color: #ffffff00;
+  }
+  88% {
+    color: #fff;
+  }
+}
+
+#about img {
+  margin-left: 10px;
+  max-width: 100%;
+}
+#about .info {
+  padding: 0;
+}
+#about .info li {
+  padding-block: 10px;
+}
+#about .info span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#about .skills > span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#about .progress {
+  border-radius: 0;
+  height: 10px;
+  background-color: #cde1f8;
+}
+#about h3 {
+  display: inline-block;
+  font-size: 32px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+#about h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 70%;
+  height: 3px;
+  background-color: #0078ff;
+}
+#about p {
+  color: gray;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+}
+#services .icon {
+  width: 120px;
+  height: 120px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  margin-bottom: 20px;
+  border: 10px solid #0078ff;
+  transition: 0.5s background-color, 0.5s color, 0.5s border;
+}
+#services .card{
+  border: 0;
+}
+.services:hover .icon {
+  color: white;
+  background-color: #0078ff;
+  border: 10px solid #add3ff !important;
+}
+#countUp {
+  background-image: url("../image/post-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#countUp .layout {
+  padding-block: 80px;
+  background-color: #0077ffa9;
+}
+#countUp .item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  width: 80px;
+  height: 80px;
+  border: 10px solid;
+}
+#portfolio .card {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+#portfolio .card img {
+  border-radius: 0 !important;
+  transition: 1s transform;
+}
+#portfolio .card .img-container {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#portfolio .card:hover img {
+  transform: scale(1.2);
+}
+#portfolio .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#portfolio .card a {
+  margin-top: 1rem;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #0078ff;
+  border: 3px solid #0078ff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+#portfolio .card span {
+  font-size: 14px;
+}
+#testimonials {
+  background-image: url("../image/overlay-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#testimonials .overlay {
+  background-color: #0077ffb2;
+  padding-block: 160px;
+}
+#testimonials .carousel-caption {
+  position: static;
+}
+#testimonials .img-container {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#testimonials .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+#testimonials .carousel-indicators {
+  position: static;
+}
+#blog .img-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+#blog .img-container img {
+  max-width: 100%;
+}
+#blog .btn-shape {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 12px;
+  background-color: #0078ff;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 12px;
+}
+#blog .card-body {
+  padding-top: 30px !important;
+}
+#contactUs {
+  background-image: url("../image/overlay-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contactUs .overlay {
+  background-color: #0077ffb2;
+  padding-block: 160px;
+}
+#contactUs .title {
+  margin-bottom: 30px;
+}
+#contactUs .title h3 {
+  font-size: 32px;
+  margin: 0;
+}
+#contactUs .title::after {
+  left: 0;
+  transform: translate(0);
+  width: 120px;
+  height: 3px;
+}
+#contactUs input,
+#contactUs textarea {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+#contactUs button {
+  display: block !important;
+  margin-inline: auto;
+  padding: 10px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0078ff;
+  border: none;
+}
+#contactUs p {
+  color: gray;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 1.3;
+}
+#contactUs ul {
+  padding: 0;
+}
+#contactUs .contact-info li {
+  padding-bottom: 15px;
+}
+#contactUs .contact-info i {
+  color: #0078ff;
+  margin-right: 10px;
+}
+#contactUs .socila-media a {
+  color: #000 !important;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-width: 3px!important ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contactUs .socila-media a:hover{
+  color: #FFF!important;
+}
+#footer{
+  background-color: #0062D3;
+}
+
+@media (max-width: 575px) {
+  #home .descrption h2{
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  #home .descrption span {
+    font-size: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #home .descrption h2{
+    width: 70%;
+    margin: auto;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  #home .descrption span {
+    font-size: 35px;
+  }
+
+}
